@@ -2,6 +2,8 @@
 ej.: "Usted se llama José y tiene 66 años" 	*/
 function Mostar()
 {	
+    var datos;
+    
 	
 }
 
