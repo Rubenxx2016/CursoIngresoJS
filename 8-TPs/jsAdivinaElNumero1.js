@@ -13,14 +13,24 @@ var contadorIntentos;
 function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 100
-	 
+   numeroSecreto=Math.floor(Math.random()*(1-100))+1;
 		//alert(numeroSecreto );
-	
+    console.log(numeroSecreto);
 
 }
 
 function verificar()
 {
 	
-	
+  var numero=document.getElementById("numero").value;
+
+  if(numeroSecreto==numero)
+{
+
+}
+	else if (numeroSecreto>numero)
+  {
+
+  }
+
 }
