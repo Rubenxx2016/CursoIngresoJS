@@ -4,6 +4,9 @@
 */
 function Mostar()
 {
-	
+	prompt("Ingrese su nombre");
+	var datos=document.getElementById("elNombre").value;
+	alert("Perfecto");
+
 }
 
