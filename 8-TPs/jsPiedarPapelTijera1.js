@@ -6,44 +6,106 @@ a su opción  y le informaremos si ganó, empató o perdió.
 */
 
 var eleccionMaquina;
-    
+var contgano=0;
+var contperdio=0;
+var contempato=0;
+var rachag=0;
+var rachae=0;
+var rachap=0;
+var maxrachag=0;
+var maxrachae=0;
+var maxrachap=0;
+
 
 function comenzar()
 {    
 
     eleccionMaquina=Math.floor(Math.random()*(4-1))+1;
+    console.log(eleccionMaquina);
 
 
 }//FIN DE LA FUNCIÓN
 function piedra()
 {   
-    
-    comenzar();
-    if(eleccionMaquina==1)
+
+    switch(eleccionMaquina)
     {
-        alert("Empate")
+        case 1:
+            rachae++
+            if(rachae>maxrachae)
+            maxrachae=rachae;
+            break
+        case 2:
+            contgano++;
+            alert ("gano")
+            break
+        case 3:
+            alert ("perdio")
+            break
+                   
     }
-    else if(eleccionMaquina==2)
-    {
-        alert("Perdio");        
-    }
-    else
-    {
-        alert("Gano")
-    }
-}
-//FIN DE LA FUNCIÓN
-function papel()
+function informar()
 {
- 
+    console.log ("gano" + contgano);
+    console.log ("empato" + contempato);
+    console.log ("perdio" + contperdio);
+    console.log ("racha ganada" + rachag);
+    console.log ("racha perdidas" + rachap);
+    console.log ("racha empate" + rachae);
+}
+
+}
 
 
+function comenzar()
+{    
 
-}//FIN DE LA FUNCIÓN
+    eleccionMaquina=Math.floor(Math.random()*(4-1))+1;
+    console.log(eleccionMaquina);
+
+
+}
+function papel()
+{   
+    switch(eleccionMaquina)
+    {
+        case 1:
+            contperdio++;
+            alert("perdio");
+            break
+        case 2:
+            contempato++;
+            alert("empate");
+            break
+        case 3:
+            alert("gano");
+            break
+     }
+
+}
+function comenzar()
+{    
+
+    eleccionMaquina=Math.floor(Math.random()*(4-1))+1;
+    console.log(eleccionMaquina);
+
+
+}
 function tijera()
 {
-    tijera=3
-    alert ("3")
-	
+     switch(eleccionMaquina)
+    {
+        case 1:
+            contempato++;
+            alert("gano");
+            break
+        case 2:
+            contperdio++;
+            alert("perdio");
+            break
+        case 3:
+            alert("empato");
+            break
+     }
 
-}//FIN DE LA FUNCIÓN
+}

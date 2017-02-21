@@ -11,18 +11,26 @@ Más de 10 intentos: “afortunado en el amor!!”.*/
 
 var numeroSecreto; 
 var contadorIntentos;
+var intentos;
+var numero;
 
 function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 100
-	 
-	
-
+	numeroSecreto=Math.floor(Math.random()*(100-1))+1;
+	console.log(numeroSecreto);
 }
 
 function verificar()
 {
+	numero=document.getElementById("numero").value;
+  	contadorIntentos++;
+	intentos=document.getElementById("intentos").value=contadorIntentos;
 	
 	
+	if(numeroSecreto==numero)
+	{
+		alert ("Usted es un Psiquico")
+	}
 
 }
