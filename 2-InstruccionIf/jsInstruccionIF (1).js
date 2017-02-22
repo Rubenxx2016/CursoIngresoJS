@@ -1,18 +1,16 @@
 function Mostrar()
 //tomo la edad
 {   
+    var edad=document.getElementById ("edad").value;
 
-    var num1=document.getElementById ("edad").value;
-    var edad;
-    edad=15;
-
-	if (edad==15) 
-{
+	if (edad>=15) 
+    {
     alert("Nina bonita");
-
-}
-
-
+    }
+    else 
+    {
+        alert ("el numero de niña bonita es otro");
+    }
 
 
 
