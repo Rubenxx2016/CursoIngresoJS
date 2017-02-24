@@ -17,23 +17,29 @@ function Mostrar()
 			acumulativop+numero
 			contadorp++;
 		}
-		else if(num==0)
-		{
-			contadorc++;
-		}
 		else
 		{
-			acumuladorn+=numero
-			contadorn++;
-			if(numero%2==0)
-			{
-				contadorp++;
-			}
+
 		}
-	
+
+				if (num==0)
+				{
+					contadorc++;
+				}
+				else
+				{
+
+				}
+
+					if (numero%2==0)
+					{
+						contadorp++;
+					}
+					else
+					{
+
+					}
+
 	}
 
-
-
-
-}//FIN DE LA FUNCIÓN
+}

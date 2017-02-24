@@ -19,6 +19,10 @@ function Mostrar()
 						acumuladornotas+=numero;
 						contadornotas++;
 					}
+					else
+					{
+						
+					}
 			alert(contadordenotas);
 			alert(acumuladornotas/contadornotas)
 

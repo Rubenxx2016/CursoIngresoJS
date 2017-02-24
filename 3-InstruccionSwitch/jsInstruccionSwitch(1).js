@@ -1,10 +1,11 @@
 function Mostrar()
 {
 //tomo la edad  
-var mesDelAño = document.getElementById('mes').value;
+var mesDelAño
+var mesDelAño=document.getElementById('mes').value;
 
 switch(mesDelAño)
-{
+    {
     case "Enero":
                 alert("Que comienses bien el año");
                 break;
@@ -17,7 +18,7 @@ switch(mesDelAño)
     case "Diciembre":
                 alert("Felices Fiestas");
                 break;
-}
+    }
 
 }
 

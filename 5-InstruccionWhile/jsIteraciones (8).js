@@ -12,7 +12,9 @@ function Mostrar()
 		numero=prompt(numero);
 		nummero=parseInt(numero);
 			if(num>=0)
-		positivos*=numero
+			{
+				positivos*=numero
+			}
 			else
 		negativos*=numero;
 	}

@@ -19,11 +19,23 @@ function Mostrar()
 		}
 		else
 		{
-			if(numero>max)
-			max=numero
-			if(numero<min)
-			min=numero;
+
 		}
+			if(numero>max)
+			{
+				max=numero
+			}
+			else 
+			{
+
+			}
+				if(numero<min)
+				min=numero;
+				else
+				{
+
+				}
+				
 		respuesta=prompt("reingrese numero");
 
 	}

@@ -12,16 +12,6 @@ function Mostrar()
         alert ("el numero de niña bonita es otro");
     }
 
-
-
-
-
-
-
-
-
-
-
 }
 //fin de la funcion
 
