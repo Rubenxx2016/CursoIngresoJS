@@ -7,7 +7,7 @@ function MostrarAumento()
 
     var num1=document.getElementById ("importe").value;
     num1=parseInt(num1);
-    resultado=num1%0.2;
+    resultado=num1%0.25;
     var cuadro=document.getElementById ("resultado").value = resultado; 
 	
 }

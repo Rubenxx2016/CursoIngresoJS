@@ -8,7 +8,7 @@ function Mostrar()
     while (clave!="utn750");
         {
 
-            clave=prompt("es la clave incorrecta");
+            alert("es la clave incorrecta");
 
         }
 

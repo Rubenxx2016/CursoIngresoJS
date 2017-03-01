@@ -1,14 +1,15 @@
 function Mostrar()
 {
+    var edad
     var edad=document.getElementById ("edad").value;
 
-    if (edad<13 || edad>17)
+    if (edad<13 && edad>17)
     {
-        alert ("la edad de las manitos")
+        alert ("Si es Adolecente")
     }
     else
     {
-        alert ("pendejo boludo")
+        alert ("no es adolecente")
     }
 //tomo la edad  
 

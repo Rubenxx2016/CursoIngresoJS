@@ -1,14 +1,18 @@
 function Mostrar()
 {
-
+	var numero;
 	var contador=0;
 	var acumulador=0;
-	var respuesta='si';
+	var respuesta=true
 
-	while (respuesta)
+	while (respuesta=!true)
 	{
-		contador++
+		contador++;
+		numero=prompt("ingrese numeros");
+		numero=parseInt(numero);
+		acumulador+=numero;
 	}
+
 
 
 document.getElementById('suma').value=acumulador;

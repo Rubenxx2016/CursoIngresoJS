@@ -4,7 +4,11 @@ function Mostrar()
 
     if (edad>=13 && edad<=18)
     {
-        alert ("muy bien")
+        alert ("es adolecente")
+    }
+    else
+    {
+    	alert ("no es adolecente")
     }
 
 //tomo la edad  

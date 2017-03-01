@@ -9,4 +9,5 @@ function Mostrar()
   		contador -= numero;
   		alert (numero);
 		}
+		
 }//FIN DE LA FUNCIÓN

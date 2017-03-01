@@ -7,6 +7,6 @@ function MostrarAumento()
 
     var num1=document.getElementById ("sueldo").value;
     num1=parseInt(num1);
-    resultado=num1*0.1;
+    resultado=num1*0.10;
     var cuadro=document.getElementById ("resultado").value = resultado;   
 }

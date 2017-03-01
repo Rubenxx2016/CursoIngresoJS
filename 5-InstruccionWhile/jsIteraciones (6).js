@@ -14,7 +14,6 @@ function Mostrar()
 
 	}
 
-	alert=(acumulador)
 	
 
 
