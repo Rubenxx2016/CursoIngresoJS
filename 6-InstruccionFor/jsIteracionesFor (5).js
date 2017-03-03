@@ -6,4 +6,5 @@ var numero=prompt ("ingresar numero")
 {   
     numero=prompt("hasta que ingrese el 9 no paro")
 }
+
 }//FIN DE LA FUNCIÓN

@@ -13,7 +13,6 @@ function Mostrar()
 
 	while(respuesta==true)
 		{
-
 			numero=parseInt(prompt("ingrese un numero"));
 			
 			if(numero<0)

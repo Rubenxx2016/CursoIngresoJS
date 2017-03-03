@@ -1,21 +1,21 @@
 function Mostrar()
 {
 	// declarar variables
-	var numero=0
+	var numero;
 	var max=0;
 	var min=0;
 	var primera=true;
-	var respuesta='si'
+	var respuesta="si"
 
-	while(respuesta!='no')
+	while(respuesta!="no")
 	{
 		numero=prompt("ingrese numero");
 		numero=parseInt(numero);
 		if(primera)
 		{
-			primera=false;
 			max=numero;
 			min=numero;
+			primera=false;
 		}
 		else
 		{
@@ -30,21 +30,19 @@ function Mostrar()
 
 			}
 				if(numero<min)
-				min=numero;
+				{
+					min=numero;
+				}				
 				else
 				{
 
 				}
 				
-		respuesta=prompt("reingrese numero");
+		respuesta=prompt("desea continuar?");
 
 	}
 
 alert (max);
 alert (min);
-}
-
-
-
 
 }//FIN DE LA FUNCIÓN
